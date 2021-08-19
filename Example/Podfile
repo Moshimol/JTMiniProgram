@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JTMiniProgram_Example' do
+  pod 'JTMiniProgram', :path => '../'
+
+  target 'JTMiniProgram_Tests' do
+    inherit! :search_paths
+    
+  end
+end
