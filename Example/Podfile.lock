@@ -1,27 +1,27 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - JTMiniProgram (0.1.0)
+  - Alamofire (4.9.1)
+  - JTMiniProgram (0.1.0):
+    - Alamofire
+    - SnapKit
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - JTMiniProgram (from `../`)
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
+    - Alamofire
+    - SnapKit
 
 EXTERNAL SOURCES:
   JTMiniProgram:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  JTMiniProgram: 5a1ccc7c628611aaf702dac5c712ae076d5f27ef
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  JTMiniProgram: 7b873fb53e9805a6a0d83680a61ea5cf65fe9838
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 5bb0248fc4aa82ef3e9b3a9f971ea0239ce1086b
+PODFILE CHECKSUM: 69f2c8098255d90f9603665a7dbce75a85d08306
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.2
